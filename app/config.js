@@ -1,4 +1,4 @@
-
+<
 var isLab = window.isLab || false;
 
 settings.autocomplete = true;
@@ -10,8 +10,8 @@ settings.hitsPerPageValues = [25,50,75,100,500,1000]
 settings.enableBackendKwicDownload = false
 settings.enableFrontendKwicDownload = true
 
-settings.languages = ["sv", "en"];
-settings.defaultLanguage = "sv";
+settings.languages = ["sv", "en", "et"];
+settings.defaultLanguage = "en";
 
 settings.downloadFormats = [
     "csv",
@@ -147,7 +147,7 @@ settings.defaultOptions = {
 }
 
 settings.korpBackendURL = "http://193.40.33.81";
-settings.downloadCgiScript = "https://ws.spraakbanken.gu.se/ws/korp/download";
+// settings.downloadCgiScript = "https://ws.spraakbanken.gu.se/ws/korp/download";
 
 settings.mapCenter = {
   lat: 62.99515845212052,
