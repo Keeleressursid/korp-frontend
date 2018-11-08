@@ -1,4 +1,3 @@
-<
 var isLab = window.isLab || false;
 
 settings.autocomplete = true;
@@ -120,7 +119,17 @@ settings.modeConfig = [
     {
         localekey: "parallel_texts",
         mode: "parallel"
+    },
+    {
+	localekey : "correspondence_texts",
+	mode : "correspondence"
+    },
+    {
+	localekey: "ud_texts",
+	mode : "ud"
     }
+    
+    
 ];
 
 settings.primaryColor = "rgb(221, 233, 255)";
